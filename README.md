@@ -8,6 +8,7 @@
 Task 1 simulation Link: [wokwi Task 1](https://wokwi.com/projects/407986447908575233)
 ![](/Image/Task_1.png)
 </br>
+This image shows the wiring of a DHT22 sensor connected to a Raspberry Pi Pico. The DHT22 sensor has four pins, with the first pin (Vcc) connected to the 3.3V power (red wire) on the Pico, the second pin (Data) connected to GPIO 6 (green wire) with a pull-up resistor between GND and Data, and the fourth pin connected to GND (black wire). When you press the green play button in your simulation environment (like in a coding platform), it initiates the code that reads the temperature and humidity data from the DHT22 sensor. These readings are then printed on the Serial monitor during the simulation, allowing you to monitor real-time environmental data.
 </br>
 
 
@@ -15,6 +16,8 @@ Task 1 simulation Link: [wokwi Task 1](https://wokwi.com/projects/40798644790857
 ## Task 2
 Task 2 simulation Link: [wokwi Task 2](https://wokwi.com/projects/407985977638854657)
 ![](/Image/Task_2.png)
+
+This image illustrates the connection of an LDR (Light Dependent Resistor) module with an LED and a Raspberry Pi Pico. The LDR module is connected to the Pico with the Vcc pin going to 3.3V (red wire), GND to GND (black wire), and the DO (Digital Output) pin connected to GPIO 12 (purple wire). The LED is connected to GPIO 5 (yellow wire) and GND (black wire). When you start the simulation by pressing the green play button, the LDR will detect the ambient light level. In a dark environment, the LED will turn on. If the light level exceeds 40%, the LED will automatically turn off, simulating a light-sensitive switch.
 </br>
 </br>
 
