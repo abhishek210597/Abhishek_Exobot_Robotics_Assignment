@@ -49,6 +49,9 @@ It initializes and operates an OLED display, an LDR sensor, a DHT22 sensor, a PI
 
 ## Task 5
 Due unavailability of L298N and motor in wokwi I have not simulated in wokwi. But created circuit diagram in doc and written code witch you can fine in Task 5 dectory Note: Both power sources are connected by a common GND.
+
+This MicroPython code is designed to control a DC motor with an encoder using PID (Proportional-Integral-Derivative) control based on temperature readings from a DHT22 sensor. The motor's direction is controlled by two GPIO pins (3 and 2), and its speed is regulated by PWM on pin 4. The encoder, connected to pins 19 and 20, tracks the motor's position, allowing for precise adjustments. The PID control loop continuously adjusts the motor's speed to match the desired position, which is determined by the temperature: if the temperature exceeds 25°C, the target position closes the blinds (set to 100), otherwise, it opens them (set to 0). The pid_control() function computes the motor output based on the error between the target and current positions, ensuring smooth operation. The main loop reads the temperature, updates the target position, processes the encoder data, and runs the PID control at regular 100 ms intervals.
+
 ![](/Image/Task_5.png)
 </br>
 </br>
