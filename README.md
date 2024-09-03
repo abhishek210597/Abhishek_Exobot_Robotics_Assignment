@@ -39,7 +39,7 @@ Task 4 simulation Link: [wokwi Task 4](https://wokwi.com/projects/40800403787596
 </br>
 
 ## Task 5
-Due unavailability of L298N and motor in wokwi I have not simulated in wokwi. But created circuit diagram in doc and written code witch you can fine in Task 5 dectory 
+Due unavailability of L298N and motor in wokwi I have not simulated in wokwi. But created circuit diagram in doc and written code witch you can fine in Task 5 dectory Note: Both power sources are connected by a common GND.
 ![](/Image/Task_5.png)
 </br>
 </br>
