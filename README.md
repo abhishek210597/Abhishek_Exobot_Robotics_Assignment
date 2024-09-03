@@ -34,6 +34,16 @@ This image shows the wiring setup for a PIR (Passive Infrared) sensor and an LED
 
 ## Task 4
 Task 4 simulation Link: [wokwi Task 4](https://wokwi.com/projects/408004037875964929)
+In this circuit:
+
+    1. LDR (Light Dependent Resistor) is connected to GPIO 28 (ADC) on the Raspberry Pi Pico. It measures the ambient light levels. A corresponding LED is connected to GPIO 9, which likely lights up when the LDR senses low light.
+    2. The DHT22 sensor is connected to GPIO 13, which reads temperature and humidity data. A pull-up resistor between GND and the data pin ensures stable communication with the Pico.
+    3. The PIR sensor, which detects motion, is connected to GPIO 20. A corresponding LED is connected to GPIO 22, which may light up when motion is detected.
+    4. An OLED display is connected via the I2C protocol, with the SCL pin connected to GPIO 27 and the SDA pin connected to GPIO 26.
+    5. All sensors share the same power source (VCC) and ground (GND) connections, ensuring that the circuit operates correctly from a single power supply.
+
+    It initializes and operates an OLED display, an LDR sensor, a DHT22 sensor, a PIR sensor, and two LEDs. The script reads light levels, temperature, humidity, and motion status from the sensors, displaying the information on the OLED screen. LEDs are triggered based on LDR readings (for light levels) and PIR readings (for motion detection). The program loops continuously, updating the OLED with sensor data and controlling the LEDs accordingly.
+    
 ![](/Image/Task_4.png)
 </br>
 </br>
