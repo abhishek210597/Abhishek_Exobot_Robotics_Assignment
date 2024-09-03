@@ -41,6 +41,7 @@ Task 4 simulation Link: [wokwi Task 4](https://wokwi.com/projects/40800403787596
 1. An OLED display is connected via the I2C protocol, with the SCL pin connected to GPIO 27 and the SDA pin connected to GPIO 26.
 1. All sensors share the same power source (VCC) and ground (GND) connections, ensuring that the circuit operates correctly from a single power supply.
 ![](/Image/display.png)
+
 It initializes and operates an OLED display, an LDR sensor, a DHT22 sensor, a PIR sensor, and two LEDs. The script reads light levels, temperature, humidity, and motion status from the sensors, displaying the information on the OLED screen. LEDs are triggered based on LDR readings (for light levels) and PIR readings (for motion detection). The program loops continuously, updating the OLED with sensor data and controlling the LEDs accordingly.
     
 ![](/Image/Task_4.png)
