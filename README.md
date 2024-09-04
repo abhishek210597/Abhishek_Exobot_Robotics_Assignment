@@ -6,7 +6,7 @@
 ## Task 1
 Task 1 simulation Link: [wokwi Task 1](https://wokwi.com/projects/407986447908575233)
 
-The wiring of a DHT22 sensor connected to a Raspberry Pi Pico. The DHT22 sensor has four pins, with the first pin (Vcc) connected to the 3.3V power (red wire) on the Pico, the second pin (Data) connected to GPIO 6 (green wire) with a pull-up resistor between GND and Data, and the fourth pin connected to GND (black wire). When you press the green play button in your simulation environment (like in a coding platform), it initiates the code that reads the temperature and humidity data from the DHT22 sensor. These readings are then printed on the Serial monitor during the simulation, allowing you to monitor real-time environmental data.
+The wiring of a DHT22 sensor connected to a Raspberry Pi Pico. The DHT22 sensor has four pins, with the first pin (Vcc) connected to the 3.3V power (red wire) on the Pico, the second pin (Data) connected to GPIO 6 (pink wire) with a pull-up resistor between GND and Data, and the fourth pin connected to GND (black wire). When you press the green play button in your simulation environment (like in a coding platform), it initiates the code that reads the temperature and humidity data from the DHT22 sensor. These readings are then printed on the Serial monitor during the simulation, allowing you to monitor real-time environmental data.
 ![](/Image/Task_1.png)
 </br>
 </br>
@@ -26,7 +26,7 @@ In this task illustrates the connection of an LDR (Light Dependent Resistor) mod
 Task 3 simulation Link: [wokwi Task 3](https://wokwi.com/projects/407991045957431297)
 
 
-The wiring setup for a PIR (Passive Infrared) sensor and an LED connected to a Raspberry Pi Pico. The PIR sensor's Vcc is connected to 3.3V (red wire), GND to GND (black wire), and the output pin (D) to GPIO 10 (green wire) on the Pico. The LED is connected to GPIO 7 (green wire) and GND (black wire). When you start the simulation by pressing the green play button, the PIR sensor will detect motion in its vicinity. If motion is detected, the LED will turn on, and the message "Motion Detected" eles "No Motion" will be printed on the serial monitor, indicating that the sensor has detected movement.
+The wiring setup for a PIR (Passive Infrared) sensor and an LED connected to a Raspberry Pi Pico. The PIR sensor's Vcc is connected to 3.3V (red wire), GND to GND (black wire), and the output pin (D) to GPIO 10 (pink wire) on the Pico. The LED is connected to GPIO 7 (yellow wire) and GND (black wire). When you start the simulation by pressing the green play button, the PIR sensor will detect motion in its vicinity. If motion is detected, the LED will turn on, and the message "Motion Detected" eles "No Motion" will be printed on the serial monitor, indicating that the sensor has detected movement.
 ![](/Image/Task_3.png)
 </br>
 </br>
